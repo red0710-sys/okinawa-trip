@@ -26,6 +26,6 @@ Trip data is stored locally in the browser. Visit Japan Web QR screenshots are s
 
 This is an unofficial third-party travel tool and is not affiliated with the Japanese government, Visit Japan Web, Okinawa Prefecture, OpenStreetMap, Open-Meteo, or Apple Charity Foundation.
 
-The charity link points directly to the official Apple Charity Foundation donation page. Okinawa Trip does not collect, process, or receive donations.
+The charity button opens a Google search for Apple Charity Foundation rather than linking directly to a donation page. Users should independently verify the official website. Okinawa Trip does not collect, process, or receive donations.
 
 Source repository is public, but no open-source license is granted unless a LICENSE file is added explicitly.
