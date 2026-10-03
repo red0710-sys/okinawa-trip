@@ -1,5 +1,5 @@
 {
-  "name": "Okinawa Trip",
+  "name": "Okinawa Trip Beta 1.0",
   "short_name": "Okinawa",
   "id": "/",
   "start_url": "/",
@@ -8,7 +8,7 @@
   "background_color": "#f5f1e8",
   "theme_color": "#087f8c",
   "lang": "zh-Hant",
-  "description": "免費沖繩自由行工具：離線行程、天氣、景點、導航、Checklist、入境 QR 與 SOS。",
+  "description": "Okinawa Trip Beta 1.0：免費沖繩自由行 PWA，支援離線行程、天氣、景點、導航、Checklist、入境 QR 與 SOS。",
   "icons": [
     {
       "src": "/icon.svg",
