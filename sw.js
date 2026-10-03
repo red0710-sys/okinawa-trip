@@ -1,5 +1,5 @@
-const CACHE='okinawa-trip-beta-1.0.2';
-const SHELL=['/','/index.html','/app.css?v=beta-1.0.2','/app.js?v=beta-1.0.2','/manifest.webmanifest?v=beta-1.0.2','/privacy.html','/terms.html','/icon.svg'];
+const CACHE='okinawa-trip-beta-1.0.3';
+const SHELL=['/','/index.html','/app.css?v=beta-1.0.3','/app.js?v=beta-1.0.3','/manifest.webmanifest?v=beta-1.0.3','/privacy.html','/terms.html','/icon.svg'];
 const NETWORK_FIRST=new Set(['/app.js','/app.css','/manifest.webmanifest','/sw.js']);
 
 self.addEventListener('install',event=>{
