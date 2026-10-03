@@ -1,9 +1,12 @@
 {
   "name": "okinawa-trip",
-  "version": "3.0.2",
+  "version": "3.0.3",
   "private": true,
   "type": "module",
   "engines": {
     "node": ">=20"
+  },
+  "dependencies": {
+    "@vercel/oidc": "latest"
   }
 }
