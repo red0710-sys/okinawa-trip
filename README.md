@@ -1,30 +1,27 @@
-# Okinawa Trip V3.1 FREE
+# Okinawa Trip V3.5 Public Ready
 
-Zero-cost, Floot-free, API-key-free Okinawa family travel web app.
+Free, non-commercial, login-free Okinawa family travel web app.
 
 ## Architecture
 
-GitHub → Vercel static hosting
+GitHub → Vercel static hosting. No AI Gateway, OpenAI API, paid backend, analytics, ad network, or account system.
 
-No AI Gateway, no OpenAI API, no payment method, no serverless AI backend.
+## Privacy model
 
-## Free features
+- Trip data is stored in the user's browser with localStorage.
+- Visit Japan Web QR screenshots are stored in local IndexedDB and are never included in exported backups.
+- Standard itinerary export excludes travel-insurance details.
+- Full backup can optionally include insurance memo data after a warning.
+- Users can delete all Okinawa Trip local data from the app.
+- External requests are limited to Open-Meteo weather and user-triggered OpenStreetMap Nominatim search.
+- Search results are cached locally for 24 hours; weather is cached for 30 minutes.
 
-- Multi-day itinerary and completion tracking
-- Flights / multiple stays by Day range / transport / party / Family Mode / budget
-- FREE Smart Plan generated locally in the browser
-- Popular place list with add / delete / restore
-- User-triggered low-frequency OpenStreetMap Nominatim place search
-- Search results can be added to popular places or directly to a Day/slot
-- Google Maps route/navigation links
-- Open-Meteo weather
-- SOS, emergency phone numbers and device location
-- Import/export local trip data
+## Public-use notes
 
-Trip data is stored locally in the browser via localStorage.
+This is an unofficial third-party travel tool and is not affiliated with the Japanese government, Visit Japan Web, Okinawa Prefecture, OpenStreetMap, Open-Meteo, or Apple Charity Foundation.
 
-### External service notes
+The charity link points directly to the official Apple Charity Foundation donation page. Okinawa Trip does not collect, process, or receive donations.
 
-OpenStreetMap Nominatim is only called after an explicit user search (no autocomplete/bulk requests). The public service is capacity-limited; keep usage light and retain OpenStreetMap attribution.
+Vercel Hobby and Open-Meteo Free are used on a non-commercial basis. OpenStreetMap Nominatim public infrastructure is capacity-limited and must remain low-volume.
 
-Open-Meteo is used for non-commercial weather display.
+Source repository is public, but no open-source license is granted unless a LICENSE file is added explicitly.
