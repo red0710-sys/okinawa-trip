@@ -1,1 +1,20 @@
-{"name":"Okinawa Trip","short_name":"Okinawa","start_url":"/","display":"standalone","background_color":"#f5f1e8","theme_color":"#087f8c"}
+{
+  "name": "Okinawa Trip",
+  "short_name": "Okinawa",
+  "id": "/",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "background_color": "#f5f1e8",
+  "theme_color": "#087f8c",
+  "lang": "zh-Hant",
+  "description": "免費沖繩自由行工具：離線行程、天氣、景點、導航、Checklist、入境 QR 與 SOS。",
+  "icons": [
+    {
+      "src": "/icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}
