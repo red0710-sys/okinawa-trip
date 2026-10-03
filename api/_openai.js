@@ -49,8 +49,8 @@ export function outputText(data) {
 export function stripJson(text) {
   return String(text || '')
     .trim()
-    .replace(/^\`\`\`json\s*/i, '')
-    .replace(/^\`\`\`/, '')
-    .replace(/\`\`\`$/, '')
+    .replace(/^```json\s*/i, '')
+    .replace(/^```/, '')
+    .replace(/```$/, '')
     .trim();
 }
