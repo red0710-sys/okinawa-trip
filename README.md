@@ -1,8 +1,8 @@
-# Okinawa Trip V3.6 PWA
+# Okinawa Trip Beta 1.0
 
 Free, non-commercial, login-free Okinawa family travel web app.
 
-## V3.6 highlights
+## Beta 1.0 highlights
 
 - Offline-capable PWA with Service Worker and installable manifest
 - Strict CSP: no inline event handlers and no inline scripts/styles
