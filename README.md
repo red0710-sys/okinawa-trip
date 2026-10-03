@@ -1,19 +1,30 @@
-# Okinawa Trip V3.0.2 — Independent
+# Okinawa Trip V3.1 FREE
 
-Floot-free deployment: static mobile web app + Vercel Serverless Functions.
+Zero-cost, Floot-free, API-key-free Okinawa family travel web app.
 
-## Production architecture
+## Architecture
 
-GitHub → Vercel → Vercel AI Gateway → OpenAI
+GitHub → Vercel static hosting
 
-On a new Vercel deployment, AI requests prefer Vercel's short-lived OIDC identity (`VERCEL_OIDC_TOKEN`), so no OpenAI provider key is stored in the repo or browser. `AI_GATEWAY_API_KEY` and `OPENAI_API_KEY` remain optional fallbacks for local or non-Vercel hosting.
+No AI Gateway, no OpenAI API, no payment method, no serverless AI backend.
 
-## Deploy
+## Free features
 
-1. Push this folder to GitHub.
-2. Import the repo in Vercel.
-3. Framework preset: **Other**. No build command is required.
-4. Deploy.
-5. Verify `/api/health`, Explore web search, and AI PLAN.
+- Multi-day itinerary and completion tracking
+- Flights / multiple stays by Day range / transport / party / Family Mode / budget
+- FREE Smart Plan generated locally in the browser
+- Popular place list with add / delete / restore
+- User-triggered low-frequency OpenStreetMap Nominatim place search
+- Search results can be added to popular places or directly to a Day/slot
+- Google Maps route/navigation links
+- Open-Meteo weather
+- SOS, emergency phone numbers and device location
+- Import/export local trip data
 
-All trip/user data remains browser-local via localStorage.
+Trip data is stored locally in the browser via localStorage.
+
+### External service notes
+
+OpenStreetMap Nominatim is only called after an explicit user search (no autocomplete/bulk requests). The public service is capacity-limited; keep usage light and retain OpenStreetMap attribution.
+
+Open-Meteo is used for non-commercial weather display.
