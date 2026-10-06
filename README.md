@@ -1,9 +1,13 @@
-# Okinawa Trip Beta 1.0
+# Okinawa Trip Beta 1.1
 
 Free, non-commercial, login-free Okinawa family travel web app.
 
-## Beta 1.0 highlights
+## Beta 1.1 highlights
 
+- Multiple itinerary items per time slot (breakfast / morning / lunch / afternoon / dinner / evening)
+- Per-item completion, optional time, notes, delete, and mobile-safe up/down ordering
+- Existing Beta 1.0 itinerary data is migrated automatically in the browser
+- Route, sharing, import/export, and SMART Plan support the new multi-item structure
 - Offline-capable PWA with Service Worker and installable manifest
 - Strict CSP: no inline event handlers and no inline scripts/styles
 - Morning / afternoon / evening weather with forecast-range messaging
