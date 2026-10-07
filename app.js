@@ -68,6 +68,8 @@ const extraCurated=[
 ['ryutan','景點','龍潭','那霸','🌿','首里城旁湖畔散步','Ryutan Pond Okinawa',['文化','市區']],
 ['nahahistory','景點','那霸市歷史博物館','那霸','🏛️','市中心室內 · 琉球王家文物','Naha City Museum of History Okinawa',['文化','雨天','市區']],
 ['manko','景點','漫湖水鳥・濕地中心','那霸','🦆','拉姆薩公約濕地 · 自然觀察','Manko Waterbird Wetland Center Okinawa',['自然','親子','市區']],
+['wafutei-uranishi','美食','和風亭 浦西店 Wafutei Uranishi','浦添','🍱','日式家庭餐廳 · 和食定食 · 親子方便','和風亭 浦西店 沖縄',['美食','親子','雨天']],
+['yayoi-uruma','美食','やよい軒 Yayoi Uruma','宇流麻','🍚','平價日式定食 · 家庭用餐 · 親子方便','やよい軒 うるま 沖縄',['美食','親子','雨天']],
 ].map(x=>({id:x[0],type:x[1],title:x[2],area:x[3],emoji:x[4],meta:x[5],query:x[6],tags:x[7]}));
 curated.push(...extraCurated);
 
